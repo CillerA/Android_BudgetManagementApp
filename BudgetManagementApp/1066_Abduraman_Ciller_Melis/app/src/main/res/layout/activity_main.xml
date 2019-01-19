@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background4"
+
+    tools:context="com.example.ciller.pm.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon2"
+            />
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewMain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_username"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorScris"
+            />
+
+        <EditText
+            android:id="@+id/editTextMain1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alex21"
+            android:textColorHint="@color/colorScris"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorScris"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewMain2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_password"
+            android:textSize="15dp"
+            android:textColor="@color/colorScris"
+            android:textStyle="bold
+"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password123"
+            android:textColorHint="@color/colorScris"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorScris"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="140dp"
+        >
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/button_signIn"
+            android:textStyle="bold"
+            android:textColor="@color/colorScris"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/button"
+            android:onClick="spreOperations"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="120dp">
+
+        <TextView
+            android:id="@+id/textViewMain3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_message"
+            android:textStyle="bold
+"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textColor="@color/colorScris"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="1dp">
+
+        <Button
+            android:id="@+id/buttonSignUp"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="@string/button_signUp"
+            android:layout_marginLeft="140dp"
+            android:onClick="metodaSignUp"
+            android:textStyle="bold
+"
+            android:textColor="@color/colorScris"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

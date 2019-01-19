@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/LLList"
+    android:orientation="vertical"
+    android:background="@drawable/debts_background"
+    tools:context="com.example.ciller.pm.AllDebtsList">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewListaDatorii"
+        android:text="@string/mesajListaDatorii"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/colorRegister"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewHarta"
+        android:text="@string/mesajHarta"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/colorRegister"
+        />
+
+    <Button
+        android:id="@+id/catreHarta"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/view_the_map"
+        android:onClick="metodaHarta"
+        android:textColor="@color/colorRegister"
+
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewDebts"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+    </ListView>
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/receivables_layout"
+    android:background="@drawable/register_background"
+    tools:context="com.example.ciller.pm.Receivables">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/titleReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="1"
+        android:text="@string/titleReceivables"
+        android:textColor="@color/colorRegister"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNameReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="2"
+        android:text="@string/messageTVReceivables"
+        android:textColor="@color/colorRegister"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etNameReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="10dp"
+        android:layout_row="2"
+        android:hint="@string/messageETReceivables"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/tvAmountReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="3"
+        android:text="@string/messageTVAmountReceivables"
+        android:textColor="@color/colorRegister"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etAmountReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="10dp"
+        android:layout_row="3"
+        android:hint="@string/etAmountReceivables"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/tvUnitReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="4"
+        android:text="@string/tvUnitReceivables"
+        android:textColor="@color/colorRegister"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/spinnerUnitReceiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_marginTop="20dp"
+        android:layout_row="4"
+        android:entries="@array/spinnerMoney" />
+
+
+    <TextView
+        android:id="@+id/tvIdReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_row="5"
+        android:text="@string/messageTVIdReceivables"
+        android:textColor="@color/colorRegister"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etIdReceivables"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_columnSpan="4"
+        android:layout_marginTop="10dp"
+        android:layout_row="5"
+        android:hint="@string/etMessageIdReceivables"
+        android:textSize="12dp" />
+
+
+        <Button
+            android:id="@+id/addReceivableButton"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_row="6"
+            android:background="@drawable/button"
+            android:onClick="addReceivable"
+            android:text="@string/messageReceivableAdd"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewAllReceiv"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="6"
+            android:background="@drawable/button"
+            android:onClick="viewAllReceivables"
+            android:text="@string/messageViewAllReceivables"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/updateReceivablesButton"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:layout_row="7"
+            android:background="@drawable/button"
+            android:onClick="updateReceivable"
+            android:text="@string/messageUpdateReceivables"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/deleteReceivablesButton"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="7"
+            android:background="@drawable/button"
+            android:onClick="deleteReceivable"
+            android:text="@string/messageDeleteReceivables"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+    </GridLayout>
+
+</ScrollView>

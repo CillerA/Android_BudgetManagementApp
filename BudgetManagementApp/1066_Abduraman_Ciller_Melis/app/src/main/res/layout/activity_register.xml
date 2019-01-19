@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register_background"
+    tools:context="com.example.ciller.pm.Register">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewRegister1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_weight="1"
+            android:text="@string/tv_message2"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRegister"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewRegister2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_message3"
+            android:layout_marginLeft="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorRegister"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewRegister3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/firstName"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alex"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        >
+
+        <TextView
+            android:id="@+id/textViewRegister4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/lastName"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Popescu"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/textViewRegister5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tv_email"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="alex.popescu@gmail.com"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        >
+        <TextView
+            android:id="@+id/textViewRegister6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/registerUsername"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Alex24"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        >
+        <TextView
+            android:id="@+id/textViewRegister7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/registerPassword"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password123"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/textViewRegister8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tv_confirmP"
+            android:textColor="@color/colorRegister"/>
+
+        <EditText
+            android:id="@+id/editTextRegister6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="password123"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:inputType="textPassword"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp">
+
+        <TextView
+            android:id="@+id/textViewRegister9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tv_gender"
+            android:textColor="@color/colorRegister"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="@string/rb_barbat" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="@string/rb_femeie" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/resultTV"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorRegister"
+            android:textStyle="italic"
+            >
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        >
+        <TextView
+            android:id="@+id/textViewRegister10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/tv_Age"
+            android:textColor="@color/colorRegister"/>
+
+        <Spinner
+            android:id="@+id/spinnerAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/spinnerAges"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <CheckBox
+            android:id="@+id/checkBoxRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_message"
+            android:textColor="@color/colorRegister"/>
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/button"
+            android:onClick="onClick"
+            android:text="@string/buttonSubmit"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

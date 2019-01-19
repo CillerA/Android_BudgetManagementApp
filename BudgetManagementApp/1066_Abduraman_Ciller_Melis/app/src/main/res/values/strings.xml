@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">Pm</string>
+    <string name="tv_username">Username</string>
+    <string name="tv_password">Password</string>
+    <string name="button_signIn">Sign In</string>
+    <string name="tv_message">No account? It\'s free!</string>
+    <string name="button_signUp">SIGN UP</string>
+    <string name="tv_message2">SIGN UP PAGE</string>
+    <string name="tv_message3">It\'s free and it takes less than 1 minute.</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="tv_email">Email</string>
+    <string name="registerUsername">Username</string>
+    <string name="registerPassword">Password</string>
+    <string name="tv_confirmP">Confirm Password</string>
+    <string name="tv_gender">Gender</string>
+    <string name="rb_barbat">Male</string>
+    <string name="rb_femeie">Female</string>
+    <string name="tv_Age">Age</string>
+    <string name="check_message">I Agree With the Terms Of Use</string>
+    <string name="buttonSubmit">Submit</string>
+    <string name="messageReview1">Let us know how we can improve this app</string>
+    <string name="messageReview2">Enter your email for us to get back to you</string>
+    <string name="messageReview3">Please rate your experience with this app</string>
+    <string name="messageReview4">Impact on social life</string>
+    <string name="messageReview5">Hour of maximum usage</string>
+    <string name="messageReview6">Would you recommend this app to your friends?</string>
+    <string name="toggleButtonOff">No</string>
+    <string name="toggleButtonOn">Yes</string>
+    <string name="messageReview7">Compose feedback</string>
+    <string name="hintReview1">Share your thoughts about this app</string>
+    <string name="messageSendFeedback">Send Feedback</string>
+    <string name="messageReview8">Thank you for your time!</string>
+    <string name="messageDebt1">ADD A NEW DEBT</string>
+    <string name="messageDebt2">Name</string>
+    <string name="editTextAdd1">Debt 1</string>
+    <string name="messageDebt3">Category</string>
+    <string name="messageDebt4">Amount</string>
+    <string name="editTextAdd2">200</string>
+    <string name="messageDebt5">Created </string>
+    <string name="messageDebt7">Due Date</string>
+    <string name="messageDebt8">Payment Method</string>
+    <string name="rb_credit">Credit Card</string>
+    <string name="rb_cash">Cash</string>
+    <string name="messageDebt9">Description</string>
+    <string name="editTextAdd5">I owe Jennifer 10$ for dinner</string>
+    <string name="messageDebt10">Send me a reminder message</string>
+    <string name="messageAddDebt">Add Debt</string>
+    <string name="messageOperations1">Add Income</string>
+    <string name="messageOperations2">Choose an operation</string>
+    <string name="messageOperations3">Add Outcome</string>
+    <string name="messageOperations4">Financial Status</string>
+    <string name="messageOperations5">My Debts</string>
+    <string name="messageStatus1">Income</string>
+    <string name="messageStatus2">Savings</string>
+    <string name="messageStatus3">Budget</string>
+    <string name="messageStatus4">Spent</string>
+    <string name="messageStatus5">Remaining</string>
+    <string name="messageStatus6">Expense</string>
+    <string name="messageStatus7">Balance</string>
+    <string name="messagewelcome">Welcome! Please choose an operation </string>
+    <string name="debtsMenu">Add Debt</string>
+    <string name="statusMenu">My debts - List</string>
+    <string name="wishList">My Wish List</string>
+    <string name="nameListaAll">Name</string>
+    <string name="createdListaAll">Created</string>
+    <string name="dueListaAll">Due Date</string>
+    <string name="amountListaAll">Amount</string>
+    <string name="descriptionListaAll">Description</string>
+    <string name="titleAllDebts">My current Debts</string>
+    <string name="catreLista">To List</string>
+    <string name="messageDebtMoney">Unit</string>
+    <string name="mesajListaDatorii">All your debts are here!</string>
+    <string name="mesajListaDatoriiNume">Name</string>
+    <string name="mesajListaDatoriiCategorie">Category</string>
+    <string name="mesajListaDatoriiCantitate">Amount</string>
+    <string name="mesajListaDatoriiUnitate">Unit</string>
+    <string name="mesajListaDatoriiZiC">Day of creation</string>
+    <string name="mesajListaDatoriiLunaC">Month of Creation</string>
+    <string name="mesajListaDatoriiAnC">Year of Creation</string>
+    <string name="mesajListaDatoriiDueZi">Due Day</string>
+    <string name="mesajListaDatoriiLunaD">Due Month</string>
+    <string name="mesajListaDatoriiAnDue">Due Year</string>
+    <string name="mesajListaDatoriiMetoda">Payment Method</string>
+    <string name="mesajListaDatoriiDescriere">Description</string>
+    <string name="mesajListaDatoriiReminder">Reminder Message</string>
+    <string name="tvBooks">Enjoy your favorite books list!</string>
+    <string name="butonReview">Review</string>
+    <string name="catreHarta">To Map</string>
+    <string name="mesajHarta">Where can I pay my debts?</string>
+    <string-array name="spinnerAges">
+        <item> less than 18</item>
+        <item> 18-30 </item>
+        <item>31-45</item>
+        <item>greater than 45</item>
+    </string-array>
+    <string-array name="spinnerCategory">
+        <item> Bank</item>
+        <item> Friends </item>
+        <item> State </item>
+        <item> Entertainment</item>
+        <item> Rent</item>
+    </string-array>
+
+    <string-array name="spinnerMoney">
+        <item> USD</item>
+        <item> EUR </item>
+        <item> RON </item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="messageReceivables">Money to receive</string>
+    <string name="tvNnameMessage">Name</string>
+    <string name="etNameReceivables">Name</string>
+    <string name="tvAmountReceivables">Amount</string>
+    <string name="etAmountReceivables">200</string>
+    <string name="tvUnitReceivables">Unit</string>
+    <string name="tvIdReceivables">Id</string>
+    <string name="etIdReceivables">1</string>
+    <string name="addReceivablesMessage">Add</string>
+    <string name="titleReceivables">Money To Receive</string>
+    <string name="messageTVReceivables">Name</string>
+    <string name="messageETReceivables">Receivable 1</string>
+    <string name="messageTVIdReceivables">Id</string>
+    <string name="etMessageIdReceivables">1</string>
+    <string name="messageTVAmountReceivables">Amount</string>
+    <string name="messageReceivableAdd">Add Receiv</string>
+    <string name="messageViewAllReceivables">View All</string>
+    <string name="messageUpdateReceivables">Update</string>
+    <string name="messageDeleteReceivables">Delete</string>
+    <string name="butonReceivables">Add Receivable</string>
+    <string name="butonRaport">Raport</string>
+</resources>

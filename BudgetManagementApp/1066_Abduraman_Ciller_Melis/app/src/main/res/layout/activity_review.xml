@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollReview"
+    android:background="@drawable/review_background"
+    tools:context="com.example.ciller.pm.Review">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textViewReview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_row="0"
+            android:text="@string/messageReview1"
+            android:textColor="@color/colorRegister"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/textViewReview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="1"
+            android:text="@string/messageReview2"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextReview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="50dp"
+            android:layout_row="2"
+            android:hint="alex21@yahoo.com"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textViewReview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_row="3"
+            android:text="@string/messageReview3"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBarReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="4"
+            android:stepSize="1" />
+
+        <TextView
+            android:id="@+id/textViewReview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="12dp"
+            android:layout_row="5"
+            android:text="@string/messageReview4"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <SeekBar
+            android:id="@+id/seekBarReview"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="6" />
+
+        <TextView
+            android:id="@+id/textViewReview5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="7"
+            android:text="@string/messageReview5"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <TimePicker
+            android:id="@+id/timePickerReview"
+            android:layout_width="365dp"
+            android:layout_height="305dp"
+            android:layout_column="0"
+            android:layout_row="8"
+            android:scaleX="0.7"
+            android:scaleY="0.7" />
+
+        <TextView
+            android:id="@+id/textViewReview6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_row="9"
+            android:text="@string/messageReview6"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_row="10"
+            android:textOff="@string/toggleButtonOff"
+            android:textOn="@string/toggleButtonOn" />
+
+        <TextView
+            android:id="@+id/textViewReview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="11"
+            android:text="@string/messageReview7"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextReview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="50dp"
+            android:layout_row="12"
+            android:hint="@string/hintReview1"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/buttonSendFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_row="13"
+            android:onClick="addReview"
+            android:text="@string/messageSendFeedback" />
+
+        <TextView
+            android:id="@+id/textViewReview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_row="14"
+            android:text="@string/messageReview8"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="15"
+            android:layout_columnSpan="4"
+            android:layout_marginTop="30dp"
+            android:id="@+id/listViewAllFeedback"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold"
+            />
+
+
+
+    </GridLayout>
+</ScrollView>

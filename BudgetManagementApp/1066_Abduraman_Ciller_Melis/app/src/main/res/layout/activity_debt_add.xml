@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ciller.pm.DebtAddActivity"
+    android:background="@drawable/register_background"
+    android:id="@+id/scrollAdd">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textViewAdd1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="1"
+            android:text="@string/messageDebt1"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewAdd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="2"
+            android:text="@string/messageDebt2"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextAdd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="2"
+            android:hint="@string/editTextAdd1"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textViewAdd3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="3"
+            android:text="@string/messageDebt3"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="10dp"
+            android:layout_row="3"
+            android:entries="@array/spinnerCategory" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="4"
+            android:text="@string/messageDebt4"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextAdd4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="4"
+            android:hint="@string/editTextAdd2"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewAddMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="5"
+            android:text="@string/messageDebtMoney"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+        <Spinner
+            android:id="@+id/spinnerUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="5"
+            android:entries="@array/spinnerMoney" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="6"
+            android:text="@string/messageDebt5"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/dp_created"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="7"
+            android:calendarTextColor="@color/colorScris"
+            android:headerBackground="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="8"
+            android:text="@string/messageDebt7"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/dp_dueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="9"
+            android:headerBackground="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="10"
+            android:text="@string/messageDebt8"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            android:layout_row="10">
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_credit"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_cash"
+                android:textSize="10dp" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textViewAdd8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="11"
+            android:text="@string/messageDebt9"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextAdd5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_columnSpan="4"
+            android:layout_marginTop="20dp"
+            android:layout_row="11"
+            android:hint="@string/editTextAdd5"
+            android:textSize="12dp" />
+
+
+        <TextView
+            android:id="@+id/textViewAdd9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_row="12"
+            android:text="@string/messageDebt10"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+        <Switch
+            android:id="@+id/switchReminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="12" />
+
+
+        <Button
+            android:id="@+id/adaugaBtn"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginTop="20dp"
+            android:layout_row="13"
+            android:background="@drawable/button"
+            android:text="@string/messageAddDebt"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/textViewResultDebt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="13"
+            android:textColor="@color/colorRegister"
+            android:textStyle="bold" />
+
+
+    </GridLayout>
+
+</ScrollView>
